@@ -1,33 +1,34 @@
 # nextjsAndNodejs
-Test Nextjs and Nodejs together
+## Test Nextjs and Nodejs together
 
-NOT: server1.js == server2.js, server1.js not work but server2.js is work. just diffrent between, i add "dir: "./client2" on the server1.js
+NOT: <br>
+-server1.js == server2.js , server1.js not work but server2.js is work. just different between, i add `dir: "./client2`` on the server1.js
 
-==I want to run the server1 file in its location. is there no way?==
+* I want to run the server1 file in its location. is there no way?
 
-server1.js:
-`const app = next({ dev, dir: "./client2" });`
-server2.js
-`const app = next({ dev });`;
+server1.js:<br>
+`const app = next({ dev, dir: "./client2" });`<br>
+server2.js<br>
+`const app = next({ dev });`;<br>
 
-1- `git clone https://github.com/muhammedalibilgin/nextjsAndNodejs.git`
-2- `cd nextjsAndNodejs`
-3- `cd client2`
-4- `npm i`
-5- `node server2.js`
+1- `git clone https://github.com/muhammedalibilgin/nextjsAndNodejs.git`<br>
+2- `cd nextjsAndNodejs`<br>
+3- `cd client2`<br>
+4- `npm i`<br>
+5- `node server2.js`<br>
 
-and get the [http://localhost:3000/](http://localhost:3000/) on the browser. its worked success. No problem.
+and get the [http://localhost:3000/](http://localhost:3000/) on the browser. its worked success. No problem.<br>
 
-but
-6- `cd ..`
-7- `npm i`
-8- `node server1.js`
+but<br>
+6- `cd ..`<br>
+7- `npm i`<br>
+8- `node server1.js`<br>
 
-Here is error:
+Here is error:<br>
 ![error](assets/error.png)
 
 
 
-> I want to run the server1 file in its location. is there no way?
+> I want to run the server1 file in its location. is there no way?<br>
 
 
